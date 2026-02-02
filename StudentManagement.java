@@ -12,7 +12,7 @@ public class StudentManagement {
         this.scoreBoard = new HashMap<>();
     }
 
-    // Getters cho repository
+    
     public Repository<Student> getStudentRepository() {
         return studentRepository;
     }
@@ -21,7 +21,7 @@ public class StudentManagement {
         return courseRepository;
     }
 
-    // Khởi tạo dữ liệu mẫu
+
     public void initSampleData() {
         System.out.println("\n=== Đang khởi tạo dữ liệu mẫu ===");
         
